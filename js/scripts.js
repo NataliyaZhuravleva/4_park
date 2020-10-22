@@ -1,8 +1,6 @@
 $(document).ready(function() {
   
   const height = parseInt(prompt("Please, enter your height in inches here:"));
-  //const weight = parseInt(prompt("Please, enter your weight in pounds here:"));
-
 
   if (height <=48) {
     $("#kids_rides").show();
